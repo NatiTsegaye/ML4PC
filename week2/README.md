@@ -137,10 +137,6 @@ delay(200); // waits
 
 Here is a brief video to demonstrate.
 
-
-
 https://user-images.githubusercontent.com/86118205/162257463-4db02872-b7f0-41d1-96cf-8bbb0158f6c1.mp4
 
-
-
-
+In addition to the LEDs, I think it would be a cool idea if I could connect the arduino to a speaker and it would remind me to not forget my ID when I am about to leave and put my mask on.
