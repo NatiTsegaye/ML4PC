@@ -2,6 +2,7 @@ For this week’s assignment, I used a “teachable machine” pose classifier m
 
 I run this model on a p5 sketch with the following javascript code that sends either 1 or 0 over a serial port. I used my webcam as the input to be identified. The sketch sends 1 if the model detects that I am wearing a mask and 0 otherwise.
 
+```
 // Update this following link to your own model link
 const poseModelUrl =
 "https://teachablemachine.withgoogle.com/models/USWKretWE/";
@@ -95,7 +96,11 @@ serial.write(outByte);
 setTimeout(() => predictVideo(), 200);
 }
 
+```
+
 My arduino nano 33 ble sense is waiting for input from the serial port. I uploaded the following code to the arduino and it lights up one of the LEDs if it receives a 1 and the other if it receives a zero.
+
+```
 int ledPin1 = 2;
 int ledPin2 = 3;
 //int ledPin3 = 4;
@@ -128,5 +133,6 @@ digitalWrite(ledPin1, LOW);
 delay(200); // waits
 }
 }
+```
 
 Here is a brief video to demonstrate.
