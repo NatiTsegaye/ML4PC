@@ -8,4 +8,4 @@ https://user-images.githubusercontent.com/86118205/163437370-e40acd20-ed78-4152-
 
 
 
-In addition to LEDs attached to my arduino board, I am also interested in the output being a web based. This week's assignment was a small demonstration for that.
+In addition to LEDs attached to my arduino board, I am also interested in the output being web based. This week's assignment was a small demonstration for that.
