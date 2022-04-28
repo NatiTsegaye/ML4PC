@@ -11,6 +11,7 @@ Interaction sketches:
 ![](https://github.com/NatiTsegaye/ML4PC/blob/main/week5/Screenshot%202022-04-28%20114733.png)
 
 Visual Reference and related work:
+
 https://dallasinnovates.com/kintrans-sign-language-tech-translates-movements-text-voice/
 
 https://slait.ai/
@@ -18,4 +19,5 @@ https://slait.ai/
 https://nyunews.com/2018/04/09/04-10-news-ar/
 
 Code Reference:
+
 https://editor.p5js.org/yining/sketches/uUwg0z9Z5
