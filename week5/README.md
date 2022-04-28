@@ -7,6 +7,7 @@ After completing the workshops in class, I thought it’d be cool and helpful to
 Given the time constraints, this project will focus on training the ASL alphabet in order to be able to spell out words.
 
 Interaction sketches:
+![](Screenshot 2022-04-28 114733.png)
 
 Visual Reference and related work:
 https://dallasinnovates.com/kintrans-sign-language-tech-translates-movements-text-voice/
