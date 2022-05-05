@@ -2,10 +2,22 @@ For my final project, I was working on creating a real time translator from sign
 
 Initially, I wanted to experiment and test if this could be achieved with image classification using Teachable Machine (https://teachablemachine.withgoogle.com/ ). I trained the alphabet signs for the American Sign Language (ASL) using images from my webcam.
 
+![](https://github.com/NatiTsegaye/ML4PC/blob/main/week6/teachableMachine.png)
+
 However, this was not as accurate as I needed it to be. So, I decided to work with hand pose tracking using MediaPipe (https://mediapipe.dev/ ) instead. I felt more comfortable with working with Reactjs, so I wrote a simple demo web app with Reactjs and P5js that would train any hand pose image from the webcam for the english alphabet. The p5js library for Reactjs makes it easier to draw on the canvas and as such build a complete web app around it. I used a KNN classifier to train the model.
 
 The user will first train a model by choosing hand poses for each letter in addition to thumbsUp thumbsDown. Once that is done, the user can simply press predict. The text display has two parts: word and sentence. Once you add letters to your word using hand poses, you can confirm using the thumbsUp and add it to the sentence. If the user wants to discard the word, they can do so using the thumbsDown pose.
 
+![](https://github.com/NatiTsegaye/ML4PC/blob/main/week6/UI.png)
+
 If I had more time to work on this project, I would work on training gestures and add more vocabulary. In addition, I would work on adding an audio output. Moreover, I would add support for two hands at a time.
 
 The following videos illustrate how to train the model and how to use the web app.
+
+
+https://user-images.githubusercontent.com/86118205/167011955-56c7f8cb-76c3-4a48-ae59-6ddd5753d5a2.mp4
+
+
+
+https://user-images.githubusercontent.com/86118205/167012052-8e71597e-aaaa-438e-baae-e9182dcc550a.mp4
+
